@@ -1,0 +1,11 @@
+Postcode boundaries © OpenStreetMap contributors, https://www.openstreetmap.org/copyright
+Licensed under the Open Data Commons Open Database License 1.0:
+https://opendatacommons.org/licenses/odbl/1-0/
+
+Source: yetzt/postleitzahlen release 2026.02
+https://github.com/yetzt/postleitzahlen/releases/tag/2026.02
+
+postcodes.json contains projected and simplified boundaries and approximate map
+focus coordinates derived from that source. It does not contain provider data.
+To reproduce the dataset in the Plalo repository:
+mise run delivery:import -- build-boundaries
